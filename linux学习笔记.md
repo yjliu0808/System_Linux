@@ -372,7 +372,6 @@ eg: find . -nium 31531 -exec rm {}\.
 在当前目录下删除i节点为31531的文件
 
 <div align="center"> <img src="pics/linux命令find.jpg" width="1000"/> </div><br>
-
 ##### 4.3.2其他命令搜索
 
 文件搜索命令：locate
@@ -392,6 +391,38 @@ eg:locate lyj  查找文件lyj的文件位置
 #### 4.7网络命令
 
 #### 4.8关机重启命令
+
+附加：如何上传本地文件到服务器，以下步骤：
+ <img src="pics/secureCRT_打开本地命令.png" width="20000" align="left"/> </div><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- lcd 到本地文件的目录下，比如：lcd D:/Invoke/
+  cd 到服务器的目录，比如：cd /home/mysql/
+  put 上传本地文件到服务器，比如：put liuyujuan.txt
+  get 下载服务器到本地，比如：get liuyujian.txt
+
+<img src="pics/本地上传文件图.png" width="8000"  align="left" />
 
 
 
