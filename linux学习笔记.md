@@ -392,8 +392,8 @@ eg:locate lyj  查找文件lyj的文件位置
 
 #### 4.8关机重启命令
 
-附加：如何上传本地文件到服务器，以下步骤：
- <img src="pics/secureCRT_打开本地命令.png" width="20000" align="left"/> </div><br>
+- 附加：如何上传本地文件到服务器，以下步骤：
+   <img src="pics/secureCRT_打开本地命令.png" width="20000" align="left"/> </div><br>
 
 
 
@@ -427,6 +427,50 @@ eg:locate lyj  查找文件lyj的文件位置
 
 
 
+
+#### Linux常用命令：
+
+> cd 切换目录
+> ls 显示目录
+> pwd 查看路径
+> shutdown -r now 重启
+> 文件和目录 
+> cd /home 进入 '/ home' 目录' 
+> cd .. 返回上一级目录 
+> cd ../.. 返回上两级目录 
+> cd ~user1 进入个人的主目录 
+> pwd 显示工作路径 
+> ls 查看目录中的文件 
+> ls -F 查看目录中的文件 
+> ls -l 显示文件和目录的详细资料 
+> ls -a 显示隐藏文件 
+>
+> mkdir dir1 创建一个叫做 'dir1' 的目录' 
+> mkdir dir1 dir2 同时创建两个目录
+>
+> mkdir -p /tmp/dir1/dir2 创建一个目录树 
+>
+> rm -f file1 删除一个叫做 'file1' 的文件' 
+>
+> rmdir dir1 删除一个叫做 'dir1' 的目录' 
+>
+> rm -rf dir1 删除一个叫做 'dir1' 的目录并同时删除其内容 
+>
+> rm -rf dir1 dir2 同时删除两个目录及它们的内容 
+>
+> mv dir1 new_dir 重命名/移动 一个目录 
+>
+> cp file1 file2 复制一个文件 
+>
+> cp -a /tmp/dir1 . 复制一个目录到当前工作目录 
+> cp -a dir1 dir2 复制一个目录 
+>
+> 文件搜索 
+> find / -name file1 从 '/' 开始进入根文件系统搜索文件和目录 
+> find / -user user1 搜索属于用户 'user1' 的文件和目录 
+> find /home/user1 -name \*.bin 在目录 '/ home/user1' 中搜索带有'.bin' 结尾的文件 
+> find /usr/bin -type f -atime +100 搜索在过去100天内未被使用过的执行文件 
+> find /usr/bin -type f -mtime -10 搜索在10天内被创建或者修改过的文件
 
 
 
